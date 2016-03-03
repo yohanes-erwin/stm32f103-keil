@@ -34,7 +34,7 @@ void KeypadInit()
 	_GPIO_InitStructKeypad.GPIO_Speed = GPIO_Speed_2MHz;
 	GPIO_Init(KEYPAD_GPIO_COL, &_GPIO_InitStructKeypad);
 	
-	// Configure GPIO as input with pull-up for keypad rows
+	// Configure GPIO as input with pull-up resistor for keypad rows
 	_GPIO_InitStructKeypad.GPIO_Pin = KEYPAD_PIN_ROW0 | KEYPAD_PIN_ROW1 |
 		KEYPAD_PIN_ROW2 | KEYPAD_PIN_ROW3;
 	_GPIO_InitStructKeypad.GPIO_Mode = GPIO_Mode_IPU;
