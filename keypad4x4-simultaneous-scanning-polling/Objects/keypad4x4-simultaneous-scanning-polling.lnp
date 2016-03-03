@@ -1,0 +1,14 @@
+--cpu Cortex-M3
+".\objects\delay.o"
+".\objects\keypad4x4-simultaneous-scanning.o"
+".\objects\lcd16x2.o"
+".\objects\main.o"
+".\objects\misc.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\keypad4x4-simultaneous-scanning-polling.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\keypad4x4-simultaneous-scanning-polling.map" -o .\Objects\keypad4x4-simultaneous-scanning-polling.axf
