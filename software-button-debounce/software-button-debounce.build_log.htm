@@ -21,22 +21,21 @@ Dialog DLL:      DARMSTM.DLL V1.65.0.0
 Dialog DLL:      TARMSTM.DLL V1.64.0.0
  
 <h2>Project:</h2>
-D:\Git\stm32f103-keil\external-interrupt\external-interrupt.uvproj
+D:\Git\stm32f103-keil\software-button-debounce\software-button-debounce.uvproj
 Project File Date:  03/04/2016
 
 <h2>Output:</h2>
-Rebuild target 'Target'
+Rebuild target 'STM32F103C8'
 compiling main.c...
 compiling delay.c...
 compiling misc.c...
-compiling stm32f10x_exti.c...
 compiling stm32f10x_gpio.c...
 compiling stm32f10x_rcc.c...
 assembling startup_stm32f10x_md.s...
 compiling system_stm32f10x.c...
 linking...
-Program Size: Code=3600 RO-data=268 RW-data=48 ZI-data=1632  
-".\Objects\external-interrupt.axf" - 0 Error(s), 0 Warning(s).
+Program Size: Code=2956 RO-data=268 RW-data=52 ZI-data=1636  
+".\Objects\software-button-debounce.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -52,13 +51,12 @@ Package Vendor: Keil
                 STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
    * Component: Startup Version: 1.0.0
    * Component: Framework Version: 3.5.1
-   * Component: EXTI Version: 3.5.0
    * Component: GPIO Version: 3.5.0
    * Component: RCC Version: 3.5.0
 
 <h2>Collection of Component include folders:</h2>
-  D:\Git\stm32f103-keil\external-interrupt\RTE
-  D:\Git\stm32f103-keil\external-interrupt\RTE\Device\STM32F103C8
+  D:\Git\stm32f103-keil\software-button-debounce\RTE
+  D:\Git\stm32f103-keil\software-button-debounce\RTE\Device\STM32F103C8
   C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
   C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0
   C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
@@ -82,10 +80,6 @@ Package Vendor: Keil
       Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
       Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
 
-   * Component: Keil::Device:StdPeriph Drivers:EXTI:3.5.0
-      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_exti.h
-      Source file:   Device\StdPeriph_Driver\src\stm32f10x_exti.c
-
    * Component: Keil::Device:StdPeriph Drivers:GPIO:3.5.0
       Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
       Source file:   Device\StdPeriph_Driver\src\stm32f10x_gpio.c
@@ -93,7 +87,7 @@ Package Vendor: Keil
    * Component: Keil::Device:StdPeriph Drivers:RCC:3.5.0
       Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
       Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
-Load "D:\\Git\\stm32f103-keil\\external-interrupt\\Objects\\external-interrupt.axf" 
+Load "D:\\Git\\stm32f103-keil\\software-button-debounce\\Objects\\software-button-debounce.axf" 
 Erase Done.
 Programming Done.
 Verify OK.
@@ -101,6 +95,16 @@ Application running ...
 </pre>
 </body>
 </html>
-x_rcc.h
+ Device\StdPeriph_Driver\src\misc.c
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_gpio.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
       Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
 Target not created.
