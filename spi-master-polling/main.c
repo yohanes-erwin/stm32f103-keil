@@ -38,7 +38,6 @@ int main(void)
 		SPI1_Transfer((uint8_t) '?');
 		DelayUs(5);
 		// Read LED blinking status (off/on) from slave
-		DelayUs(10);
 		receivedByte = SPI1_Transfer(0);
 		// Disable slave
 		SPI1_DisableSlave();
