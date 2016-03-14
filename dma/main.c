@@ -16,15 +16,15 @@ char destination[BUF_SIZE];
 void DMA1_Channel1_IRQHandler()
 {
 	if(DMA_GetITStatus(DMA1_IT_TC1))
-  {
+	{
 		// Display received data to the LCD
 		lcd16x2_clrscr();
 		lcd16x2_puts(destination);
 
 		// Clear DMA1 Channel1 half transfer, transfer complete and 
 		// global interrupt pending bits
-    DMA_ClearITPendingBit(DMA1_IT_GL1);
-  }
+		DMA_ClearITPendingBit(DMA1_IT_GL1);
+	}
 }
 
 int main(void)
