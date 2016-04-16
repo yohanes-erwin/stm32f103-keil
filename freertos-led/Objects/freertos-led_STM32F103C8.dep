@@ -1,0 +1,185 @@
+Dependencies for Project 'freertos-led', Target 'STM32F103C8': (DO NOT MODIFY !)
+F (.\main.c)(0x5711B226)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\freertos-led\RTE\RTE_Components.h)(0x5711A7C1)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (FreeRTOS/include/FreeRTOS.h)(0x5620F7DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419AB8A)
+I (FreeRTOS/include/FreeRTOSConfig.h)(0x5710A957)
+I (FreeRTOS/include/projdefs.h)(0x5620F7DA)
+I (FreeRTOS/include/portable.h)(0x5620F7DA)
+I (FreeRTOS/include/deprecated_definitions.h)(0x5620F7DA)
+I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5620F7DB)
+I (FreeRTOS/include/mpu_wrappers.h)(0x5620F7DA)
+I (FreeRTOS/include/task.h)(0x56228176)
+I (FreeRTOS/include/list.h)(0x5620F7DA)
+F (.\FreeRTOS\croutine.c)(0x5620F7DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (FreeRTOS\include\FreeRTOS.h)(0x5620F7DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (FreeRTOS\include\FreeRTOSConfig.h)(0x5710A957)
+I (FreeRTOS\include\projdefs.h)(0x5620F7DA)
+I (FreeRTOS\include\portable.h)(0x5620F7DA)
+I (FreeRTOS\include\deprecated_definitions.h)(0x5620F7DA)
+I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5620F7DB)
+I (FreeRTOS\include\mpu_wrappers.h)(0x5620F7DA)
+I (FreeRTOS\include\task.h)(0x56228176)
+I (FreeRTOS\include\list.h)(0x5620F7DA)
+I (FreeRTOS\include\croutine.h)(0x5620F7DA)
+F (.\FreeRTOS\event_groups.c)(0x5620F7DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419AB8C)
+I (FreeRTOS\include\FreeRTOS.h)(0x5620F7DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (FreeRTOS\include\FreeRTOSConfig.h)(0x5710A957)
+I (FreeRTOS\include\projdefs.h)(0x5620F7DA)
+I (FreeRTOS\include\portable.h)(0x5620F7DA)
+I (FreeRTOS\include\deprecated_definitions.h)(0x5620F7DA)
+I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5620F7DB)
+I (FreeRTOS\include\mpu_wrappers.h)(0x5620F7DA)
+I (FreeRTOS\include\task.h)(0x56228176)
+I (FreeRTOS\include\list.h)(0x5620F7DA)
+I (FreeRTOS\include\timers.h)(0x5620F7DA)
+I (FreeRTOS\include\event_groups.h)(0x5620F7DA)
+F (.\FreeRTOS\list.c)(0x5620F7DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419AB8C)
+I (FreeRTOS\include\FreeRTOS.h)(0x5620F7DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (FreeRTOS\include\FreeRTOSConfig.h)(0x5710A957)
+I (FreeRTOS\include\projdefs.h)(0x5620F7DA)
+I (FreeRTOS\include\portable.h)(0x5620F7DA)
+I (FreeRTOS\include\deprecated_definitions.h)(0x5620F7DA)
+I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5620F7DB)
+I (FreeRTOS\include\mpu_wrappers.h)(0x5620F7DA)
+I (FreeRTOS\include\list.h)(0x5620F7DA)
+F (.\FreeRTOS\queue.c)(0x5620F7DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419AB8C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419AB8C)
+I (FreeRTOS\include\FreeRTOS.h)(0x5620F7DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (FreeRTOS\include\FreeRTOSConfig.h)(0x5710A957)
+I (FreeRTOS\include\projdefs.h)(0x5620F7DA)
+I (FreeRTOS\include\portable.h)(0x5620F7DA)
+I (FreeRTOS\include\deprecated_definitions.h)(0x5620F7DA)
+I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5620F7DB)
+I (FreeRTOS\include\mpu_wrappers.h)(0x5620F7DA)
+I (FreeRTOS\include\task.h)(0x56228176)
+I (FreeRTOS\include\list.h)(0x5620F7DA)
+I (FreeRTOS\include\queue.h)(0x5620F7DA)
+F (.\FreeRTOS\tasks.c)(0x5620F7DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419AB8C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419AB8C)
+I (FreeRTOS\include\FreeRTOS.h)(0x5620F7DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (FreeRTOS\include\FreeRTOSConfig.h)(0x5710A957)
+I (FreeRTOS\include\projdefs.h)(0x5620F7DA)
+I (FreeRTOS\include\portable.h)(0x5620F7DA)
+I (FreeRTOS\include\deprecated_definitions.h)(0x5620F7DA)
+I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5620F7DB)
+I (FreeRTOS\include\mpu_wrappers.h)(0x5620F7DA)
+I (FreeRTOS\include\task.h)(0x56228176)
+I (FreeRTOS\include\list.h)(0x5620F7DA)
+I (FreeRTOS\include\timers.h)(0x5620F7DA)
+I (FreeRTOS\include\StackMacros.h)(0x5620F7DA)
+F (.\FreeRTOS\timers.c)(0x5620F7DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419AB8C)
+I (FreeRTOS\include\FreeRTOS.h)(0x5620F7DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (FreeRTOS\include\FreeRTOSConfig.h)(0x5710A957)
+I (FreeRTOS\include\projdefs.h)(0x5620F7DA)
+I (FreeRTOS\include\portable.h)(0x5620F7DA)
+I (FreeRTOS\include\deprecated_definitions.h)(0x5620F7DA)
+I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5620F7DB)
+I (FreeRTOS\include\mpu_wrappers.h)(0x5620F7DA)
+I (FreeRTOS\include\task.h)(0x56228176)
+I (FreeRTOS\include\list.h)(0x5620F7DA)
+I (FreeRTOS\include\queue.h)(0x5620F7DA)
+I (FreeRTOS\include\timers.h)(0x5620F7DA)
+F (.\FreeRTOS\portable\MemMang\heap_1.c)(0x5620F7DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\heap_1.o --omf_browse .\objects\heap_1.crf --depend .\objects\heap_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419AB8C)
+I (FreeRTOS\include\FreeRTOS.h)(0x5620F7DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (FreeRTOS\include\FreeRTOSConfig.h)(0x5710A957)
+I (FreeRTOS\include\projdefs.h)(0x5620F7DA)
+I (FreeRTOS\include\portable.h)(0x5620F7DA)
+I (FreeRTOS\include\deprecated_definitions.h)(0x5620F7DA)
+I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5620F7DB)
+I (FreeRTOS\include\mpu_wrappers.h)(0x5620F7DA)
+I (FreeRTOS\include\task.h)(0x56228176)
+I (FreeRTOS\include\list.h)(0x5620F7DA)
+F (.\FreeRTOS\portable\RVDS\ARM_CM3\port.c)(0x5620F7DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (FreeRTOS\include\FreeRTOS.h)(0x5620F7DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (FreeRTOS\include\FreeRTOSConfig.h)(0x5710A957)
+I (FreeRTOS\include\projdefs.h)(0x5620F7DA)
+I (FreeRTOS\include\portable.h)(0x5620F7DA)
+I (FreeRTOS\include\deprecated_definitions.h)(0x5620F7DA)
+I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5620F7DB)
+I (FreeRTOS\include\mpu_wrappers.h)(0x5620F7DA)
+I (FreeRTOS\include\task.h)(0x56228176)
+I (FreeRTOS\include\list.h)(0x5620F7DA)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\freertos-led\RTE\RTE_Components.h)(0x5711A7C1)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\freertos-led\RTE\RTE_Components.h)(0x5711A7C1)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\freertos-led\RTE\RTE_Components.h)(0x5711A7C1)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5615BC0E)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x4F1E3C4C)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc--pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x4F1E3C4C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -IFreeRTOS\include -IFreeRTOS\portable\RVDS\ARM_CM3-I D:\Git\stm32f103-keil\freertos-led\RTE-I D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\freertos-led\RTE\RTE_Components.h)(0x5711A7C1)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\freertos-led\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
