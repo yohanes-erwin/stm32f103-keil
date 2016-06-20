@@ -1,0 +1,97 @@
+Dependencies for Project 'led-matrix-8x8-scrolling-sprite', Target 'STM32F103C8': (DO NOT MODIFY !)
+F (.\delay.c)(0x5691B48C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE-I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (delay.h)(0x5691B2B5)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\RTE_Components.h)(0x57296112)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (.\main.c)(0x57296A66)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE-I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\RTE_Components.h)(0x57296112)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (delay.h)(0x5691B2B5)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE-I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\RTE_Components.h)(0x57296112)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE-I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\RTE_Components.h)(0x57296112)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE-I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\RTE_Components.h)(0x57296112)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_tim.c)(0x52F9F930)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE-I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\RTE_Components.h)(0x57296112)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5615BC0E)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x4F1E3C4C)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE-I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc--pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x4F1E3C4C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE-I D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\RTE_Components.h)(0x57296112)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419AB8A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF00BA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E3C4C)
+I (D:\Git\stm32f103-keil\led-matrix-8x8-scrolling-sprite\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9F930)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9F930)

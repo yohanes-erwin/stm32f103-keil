@@ -476,14 +476,13 @@ ARM Macro Assembler    Page 8
               00000200 
               00000000 
 Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\object
-s\startup_stm32f10x_md.d -o.\objects\startup_stm32f10x_md.o -ID:\Git\arm-librar
-y\stm32f103-keil\lcd16x2\RTE -ID:\Git\arm-library\stm32f103-keil\lcd16x2\RTE\De
-vice\STM32F103C8 -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -IC:\Keil_
-v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0 -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2
-.0.0\Device\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPe
-riph_Driver\inc --predefine="_RTE_ SETA 1" --predefine="STM32F10X_MD SETA 1" --
-list=.\listings\startup_stm32f10x_md.lst RTE\Device\STM32F103C8\startup_stm32f1
-0x_md.s
+s\startup_stm32f10x_md.d -o.\objects\startup_stm32f10x_md.o -ID:\Git\stm32f103-
+keil\lcd16x2\RTE -ID:\Git\stm32f103-keil\lcd16x2\RTE\Device\STM32F103C8 -IC:\Ke
+il_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1
+xx_DFP\2.0.0 -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include -IC:
+\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc --predef
+ine="_RTE_ SETA 1" --predefine="STM32F10X_MD SETA 1" --list=.\listings\startup_
+stm32f10x_md.lst RTE\Device\STM32F103C8\startup_stm32f10x_md.s
 
 
 
