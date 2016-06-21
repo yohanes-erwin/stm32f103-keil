@@ -23,12 +23,12 @@
 #include "stm32f10x.h"
 #include "stm32f10x_rcc.h"
 #include "stm32f10x_gpio.h"
-#include "stm32f10x_usart.h"
+#include "stm32f10x_adc.h"
+#include "stm32f10x_tim.h"
 #include "delay.h"
 #include "lcd16x2.h"
 #include "lookup.h"
 #include <math.h>
-#include <stdio.h>
 
 // The real DFT transforms an N point time domain signal 
 // into two N/2+1 point frequency domain signals
@@ -43,7 +43,7 @@ volatile uint8_t n_done = 0;
 uint16_t x[N_TIME];
 int REX[N_FREQ];
 int IMX[N_FREQ];
-uint16_t mag[N_FREQ];
+uint16_t MAG[N_FREQ];
 uint8_t lcd_buf_top[N_FREQ];
 uint8_t lcd_buf_bot[N_FREQ];
 
@@ -68,12 +68,12 @@ void TIM3_IRQHandler()
 		// Write to PWM (audio loopback)
 		write_pwm(adc_value);
 		
-		// Sampling 32 point DFT
+		// Sampling N_TIME point DFT
 		if (n_done == 0)
 		{
 			x[n_count++] = adc_value;
 			
-			if (n_count >= 32)
+			if (n_count >= N_TIME)
 			{
 				n_done = 1;
 				n_count = 0;			
@@ -136,9 +136,9 @@ void init_timer()
 	
 	// Step 1: Initialize TIM3 for timer interrupt
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);
-	// Timer freq = (timer_clock/timer_prescaler) / (TIM_Period+1)
-	// Timer freq = (72MHz/2) / (1023+1) = 35.15kHz
-	TIM_TimeBaseInitStruct.TIM_Prescaler = 2;
+	// Timer freq = timer_clock / ((TIM_Prescaler+1) * (TIM_Period+1))
+	// Timer freq = 72MHz / ((1+1) * (1023+1) = 35.15kHz
+	TIM_TimeBaseInitStruct.TIM_Prescaler = 1;
 	TIM_TimeBaseInitStruct.TIM_Period = 1023;
 	TIM_TimeBaseInitStruct.TIM_ClockDivision = TIM_CKD_DIV1;
 	TIM_TimeBaseInitStruct.TIM_CounterMode = TIM_CounterMode_Up;
@@ -163,9 +163,9 @@ void init_pwm()
 	
 	// Step 1: Initialize TIM2 for PWM
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
-	// Timer freq(PWM freq) = (timer_clock/timer_prescaler) / (TIM_Period+1)
-	// Timer freq(PWM freq) = (72MHz/2) / (1023+1) = 35.15kHz (10-bit PWM)
-	TIM_TimeBaseInitStruct.TIM_Prescaler = 2;
+	// Timer freq = timer_clock / ((TIM_Prescaler+1) * (TIM_Period+1))
+	// Timer freq = 72MHz / ((1+1) * (1023+1) = 35.15kHz
+	TIM_TimeBaseInitStruct.TIM_Prescaler = 1;
 	TIM_TimeBaseInitStruct.TIM_Period = 1023;
 	TIM_TimeBaseInitStruct.TIM_ClockDivision = TIM_CKD_DIV1;
 	TIM_TimeBaseInitStruct.TIM_CounterMode = TIM_CounterMode_Up;
@@ -265,7 +265,7 @@ void dft()
 		}
 		
 		// Calculate magnitude from real and imaginary part
-		mag[k] = sqrt(REX[k]*REX[k] + IMX[k]*IMX[k]);
+		MAG[k] = sqrt(REX[k]*REX[k] + IMX[k]*IMX[k]);
 	}
 }
 
@@ -277,23 +277,23 @@ void mag_to_buf()
 	for(i = 1; i < N_FREQ; i++) 
 	{
 		// Scaling magnitude to fit the LCD bar graph maximum value
-		mag[i] /= 32;
+		MAG[i] /= 32;
 		
 		// Fill LCD row buffer
-		if (mag[i] > 15)
+		if (MAG[i] > 15)
 		{
 			lcd_buf_top[i] = 7;
 			lcd_buf_bot[i] = 7;
 		}
-		else if (mag[i] > 7)
+		else if (MAG[i] > 7)
 		{
-			lcd_buf_top[i] = mag[i] - 7 - 1;
+			lcd_buf_top[i] = MAG[i] - 7 - 1;
 			lcd_buf_bot[i] = 7;
 		}
 		else
 		{
 			lcd_buf_top[i] = ' ';
-			lcd_buf_bot[i] = mag[i];
+			lcd_buf_bot[i] = MAG[i];
 		}
 	}
 }

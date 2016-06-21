@@ -477,13 +477,13 @@ ARM Macro Assembler    Page 8
               00000000 
 Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\object
 s\startup_stm32f10x_md.d -o.\objects\startup_stm32f10x_md.o -I"D:\Electronics E
-ngineering\Keil\digital-audio-processing\dsp-audio-effect\RTE" -I"D:\Electronic
-s Engineering\Keil\digital-audio-processing\dsp-audio-effect\RTE\Device\STM32F1
-03C8" -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK
-\Keil\STM32F1xx_DFP\2.0.0 -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device
-\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver
-\inc --predefine="_RTE_ SETA 1" --predefine="STM32F10X_MD SETA 1" --list=.\list
-ings\startup_stm32f10x_md.lst RTE\Device\STM32F103C8\startup_stm32f10x_md.s
+ngineering\Keil\dsp-audio-effect\RTE" -I"D:\Electronics Engineering\Keil\dsp-au
+dio-effect\RTE\Device\STM32F103C8" -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\
+Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0 -IC:\Keil_v5\ARM\PACK\Ke
+il\STM32F1xx_DFP\2.0.0\Device\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\
+2.0.0\Device\StdPeriph_Driver\inc --predefine="_RTE_ SETA 1" --predefine="STM32
+F10X_MD SETA 1" --list=.\listings\startup_stm32f10x_md.lst RTE\Device\STM32F103
+C8\startup_stm32f10x_md.s
 
 
 

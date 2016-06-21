@@ -1,5 +1,5 @@
 Dependencies for Project 'dsp-dft-audio-spectrum-analyzer', Target 'STM32F103C8': (DO NOT MODIFY !)
-F (.\main.c)(0x5764F611)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "D:\Electronics Engineering\Keil\dsp-dft-audio-spectrum-analyzer\RTE"-I "D:\Electronics Engineering\Keil\dsp-dft-audio-spectrum-analyzer\RTE\Device\STM32F103C8"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x5768C257)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "D:\Electronics Engineering\Keil\dsp-dft-audio-spectrum-analyzer\RTE"-I "D:\Electronics Engineering\Keil\dsp-dft-audio-spectrum-analyzer\RTE\Device\STM32F103C8"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)
 I (D:\Electronics Engineering\Keil\dsp-dft-audio-spectrum-analyzer\RTE\RTE_Components.h)(0x575F7757)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC3FEA)
@@ -18,7 +18,6 @@ I (delay.h)(0x5691B2B5)
 I (lcd16x2.h)(0x56B71DC7)
 I (lookup.h)(0x5760C2EB)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5419AB8A)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419AB8C)
 F (.\lcd16x2.c)(0x56B71DC5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "D:\Electronics Engineering\Keil\dsp-dft-audio-spectrum-analyzer\RTE"-I "D:\Electronics Engineering\Keil\dsp-dft-audio-spectrum-analyzer\RTE\Device\STM32F103C8"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F10X_MD-o .\objects\lcd16x2.o --omf_browse .\objects\lcd16x2.crf --depend .\objects\lcd16x2.d)
 I (lcd16x2.h)(0x56B71DC7)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA1B70)

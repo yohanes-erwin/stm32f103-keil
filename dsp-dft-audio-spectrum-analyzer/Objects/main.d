@@ -18,4 +18,3 @@
 .\objects\main.o: lcd16x2.h
 .\objects\main.o: lookup.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
-.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

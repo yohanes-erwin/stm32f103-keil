@@ -132,9 +132,9 @@ void PWM_Setup()
 	
 	// Step 1: Initialize TIM2 for PWM
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
-	// Timer freq(PWM freq) = (timer_clock/timer_prescaler) / (TIM_Period+1)
-	// Timer freq(PWM freq) = (72MHz/2) / (1023+1) = 35.15kHz (10-bit PWM)
-	TIM_TimeBaseInitStruct.TIM_Prescaler = 2;
+	// Timer freq = timer_clock / ((TIM_Prescaler+1) * (TIM_Period+1))
+	// Timer freq = 72MHz / ((1+1) * (1023+1) = 35.15kHz
+	TIM_TimeBaseInitStruct.TIM_Prescaler = 1;
 	TIM_TimeBaseInitStruct.TIM_Period = 1023;
 	TIM_TimeBaseInitStruct.TIM_ClockDivision = TIM_CKD_DIV1;
 	TIM_TimeBaseInitStruct.TIM_CounterMode = TIM_CounterMode_Up;
@@ -151,9 +151,9 @@ void PWM_Setup()
 	
 	// Step 3: Initialize TIM3 for timer interrupt
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);
-	// Timer freq = (timer_clock/timer_prescaler) / (TIM_Period+1)
-	// Timer freq = (72MHz/2) / (1023+1) = 35.15kHz
-	TIM_TimeBaseInitStruct.TIM_Prescaler = 2;
+	// Timer freq = timer_clock / ((TIM_Prescaler+1) * (TIM_Period+1))
+	// Timer freq = 72MHz / ((1+1) * (1023+1) = 35.15kHz
+	TIM_TimeBaseInitStruct.TIM_Prescaler = 1;
 	TIM_TimeBaseInitStruct.TIM_Period = 1023;
 	TIM_TimeBaseInitStruct.TIM_ClockDivision = TIM_CKD_DIV1;
 	TIM_TimeBaseInitStruct.TIM_CounterMode = TIM_CounterMode_Up;
