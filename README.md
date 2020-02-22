@@ -1,3 +1,7 @@
+# Programming STM32F103 (Blue Pill) by Examples
+
+These simple programs demonstrate how to use STM32F103 peripherals, sensors, and actuators.
+
 ## Donation
 If this project help you reduce time to develop, you can give me a cup of coffee :)
 
