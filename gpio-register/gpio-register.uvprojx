@@ -516,7 +516,7 @@
       <file attr="config" category="source" name="Device\StdPeriph_Driver\templates\stm32f10x_conf.h" version="3.5.0">
         <instance index="0">RTE\Device\STM32F103C8\stm32f10x_conf.h</instance>
         <component Cclass="Device" Cgroup="StdPeriph Drivers" Csub="Framework" Cvendor="Keil" Cversion="3.5.1" condition="STM32F1xx STDPERIPH"/>
-        <package name="STM32F1xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.0.0"/>
+        <package name="STM32F1xx_DFP" schemaVersion="1.2" url="https://keilpack.azureedge.net/pack/" vendor="Keil" version="2.0.0"/>
         <targetInfos>
           <targetInfo name="STM32F103C8"/>
         </targetInfos>
